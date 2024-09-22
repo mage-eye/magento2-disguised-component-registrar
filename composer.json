@@ -1,0 +1,25 @@
+{
+    "name": "mage-eye/magento2-disguised-component-registrar",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "MageEye\\MagentoDisguisedComponentRegistrar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jerke Combee",
+            "email": "jerke1988@gmail.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^2.0",
+        "magento/framework": ">=100.0.0"
+    },
+    "require-dev": {
+        "composer/composer": "^2.0"
+    },
+    "extra": {
+        "class": "MageEye\\MagentoDisguisedComponentRegistrar\\Plugin"
+    }
+}
